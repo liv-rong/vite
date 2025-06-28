@@ -4,25 +4,25 @@
 // rollup.config.js
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
-import { terser } from 'rollup-plugin-terser'
+import simpleHtml from './simple-html-plugin.js' // 导入你的插件
+import filterAssets from './filter-assets-plugin.js'
+import manifestPlugin from './manifest-plugin.js'
+import versionPlugin from './version-plugin.js'
 
-const buildOptions = {
-  input: {
-    index: 'src/index.js'
+export default {
+  input: 'src/index.js', // 你的入口文件
+  output: {
+    dir: 'dist', // 输出目录
+    format: 'es', // 输出格式 (es/cjs/umd等)
+    sourcemap: true,
+    // 确保不与其他配置冲突
+    entryFileNames: '[name].js',
+    chunkFileNames: '[name].js'
   },
-  output: [
-    { plugins: [terser()] },
-    {
-      dir: 'dist/es',
-      format: 'esm'
-    },
-    {
-      dir: 'dist/cjs',
-      format: 'cjs'
-    }
-  ],
-  // 通过 plugins 参数添加插件
-  plugins: [resolve(), commonjs()]
+  plugins: [
+    // simpleHtml(), // 使用你的HTML插件
+    // filterAssets(),
+    // manifestPlugin(),
+    versionPlugin()
+  ]
 }
-
-export default buildOptions
