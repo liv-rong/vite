@@ -1,0 +1,600 @@
+[
+  {
+    "id": "/@react-refresh",
+    "deps": [],
+    "importers": [
+      "/Users/rwr/repo/vite/vite/src/index.jsx"
+    ],
+    "plugins": [
+      {
+        "name": "vite:react-refresh",
+        "transform": 1
+      },
+      {
+        "name": "vite-hooks-logger",
+        "transform": 0
+      },
+      {
+        "name": "vite:import-analysis",
+        "transform": 1
+      }
+    ],
+    "virtual": true,
+    "totalTime": 2,
+    "invokeCount": 1,
+    "sourceSize": 20869,
+    "distSize": 20967
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.pnpm/react-dom@19.1.0_react@19.1.0/node_modules/react-dom/client.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.pnpm/react-dom@19.1.0_react@19.1.0/node_modules/react-dom/index.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.pnpm/react@19.1.0/node_modules/react/index.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-dev-runtime.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.pnpm/scheduler@0.26.0/node_modules/scheduler/index.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 1
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.pnpm/vite@7.0.0/node_modules/vite/dist/client/client.mjs",
+    "deps": [
+      "/Users/rwr/repo/vite/vite/node_modules/.pnpm/vite@7.0.0/node_modules/vite/dist/client/env.mjs"
+    ],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "__load__",
+        "transform": 0
+      },
+      {
+        "name": "vite-hooks-logger",
+        "transform": 0
+      },
+      {
+        "name": "vite:client-inject",
+        "transform": 0
+      },
+      {
+        "name": "vite:import-analysis",
+        "transform": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 1,
+    "invokeCount": 1,
+    "sourceSize": 30826,
+    "distSize": 30803
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.pnpm/vite@7.0.0/node_modules/vite/dist/client/env.mjs",
+    "deps": [],
+    "importers": [
+      "/Users/rwr/repo/vite/vite/node_modules/.pnpm/vite@7.0.0/node_modules/vite/dist/client/client.mjs"
+    ],
+    "plugins": [
+      {
+        "name": "__load__",
+        "transform": 0
+      },
+      {
+        "name": "vite-hooks-logger",
+        "transform": 0
+      },
+      {
+        "name": "vite:client-inject",
+        "transform": 0
+      },
+      {
+        "name": "vite:import-analysis",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 0,
+    "invokeCount": 1,
+    "sourceSize": 612,
+    "distSize": 603
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/chunk-E6KUT42S.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:optimized-deps",
+        "transform": 79
+      },
+      {
+        "name": "vite-hooks-logger",
+        "transform": 0
+      },
+      {
+        "name": "vite:import-analysis",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 79,
+    "invokeCount": 1,
+    "sourceSize": 43874,
+    "distSize": 43874
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/chunk-E6KUT42S.js?v=f4608964",
+    "deps": [],
+    "importers": [
+      "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=9d6eb124",
+      "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/react.js?v=9d6eb124",
+      "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/react-dom_client.js?v=bfbde694",
+      "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/chunk-VZIJ55YX.js?v=f4608964"
+    ],
+    "plugins": [
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/chunk-VZIJ55YX.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:optimized-deps",
+        "transform": 27
+      },
+      {
+        "name": "vite-hooks-logger",
+        "transform": 0
+      },
+      {
+        "name": "vite:import-analysis",
+        "transform": 1
+      }
+    ],
+    "virtual": true,
+    "totalTime": 28,
+    "invokeCount": 1,
+    "sourceSize": 16623,
+    "distSize": 16657
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/chunk-VZIJ55YX.js?v=f4608964",
+    "deps": [
+      "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/chunk-E6KUT42S.js?v=f4608964"
+    ],
+    "importers": [
+      "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/react-dom_client.js?v=bfbde694"
+    ],
+    "plugins": [
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/react-dom_client.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:optimized-deps",
+        "transform": 47
+      },
+      {
+        "name": "vite-hooks-logger",
+        "transform": 0
+      },
+      {
+        "name": "vite:import-analysis",
+        "transform": 10
+      }
+    ],
+    "virtual": true,
+    "totalTime": 57,
+    "invokeCount": 1,
+    "sourceSize": 902225,
+    "distSize": 902293
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/react-dom_client.js?v=bfbde694",
+    "deps": [
+      "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/chunk-VZIJ55YX.js?v=f4608964",
+      "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/chunk-E6KUT42S.js?v=f4608964"
+    ],
+    "importers": [
+      "/Users/rwr/repo/vite/vite/src/main.tsx"
+    ],
+    "plugins": [
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/react.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:optimized-deps",
+        "transform": 8
+      },
+      {
+        "name": "vite-hooks-logger",
+        "transform": 0
+      },
+      {
+        "name": "vite:import-analysis",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 87,
+    "distSize": 121
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/react.js?v=9d6eb124",
+    "deps": [
+      "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/chunk-E6KUT42S.js?v=f4608964"
+    ],
+    "importers": [
+      "/Users/rwr/repo/vite/vite/src/main.tsx"
+    ],
+    "plugins": [
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/react_jsx-dev-runtime.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:optimized-deps",
+        "transform": 7
+      },
+      {
+        "name": "vite-hooks-logger",
+        "transform": 0
+      },
+      {
+        "name": "vite:import-analysis",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 7,
+    "invokeCount": 1,
+    "sourceSize": 12320,
+    "distSize": 12354
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=9d6eb124",
+    "deps": [
+      "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/chunk-E6KUT42S.js?v=f4608964"
+    ],
+    "importers": [
+      "/Users/rwr/repo/vite/vite/src/main.tsx",
+      "/Users/rwr/repo/vite/vite/src/index.jsx"
+    ],
+    "plugins": [
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/src/index.jsx",
+    "deps": [
+      "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=9d6eb124",
+      "/@react-refresh",
+      "/Users/rwr/repo/vite/vite/src/vite.svg"
+    ],
+    "importers": [
+      "/Users/rwr/repo/vite/vite/src/main.tsx"
+    ],
+    "plugins": [
+      {
+        "name": "__load__",
+        "transform": 0
+      },
+      {
+        "name": "vite:react-babel",
+        "transform": 31
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 32
+      },
+      {
+        "name": "vite-hooks-logger",
+        "transform": 0
+      },
+      {
+        "name": "vite:import-analysis",
+        "transform": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 65,
+    "invokeCount": 1,
+    "sourceSize": 151,
+    "distSize": 1992
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/src/main.tsx",
+    "deps": [
+      "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=9d6eb124",
+      "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/react.js?v=9d6eb124",
+      "/Users/rwr/repo/vite/vite/node_modules/.vite/deps/react-dom_client.js?v=bfbde694",
+      "/Users/rwr/repo/vite/vite/src/index.jsx"
+    ],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "__load__",
+        "transform": 0
+      },
+      {
+        "name": "vite:react-babel",
+        "transform": 263
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 30
+      },
+      {
+        "name": "vite-hooks-logger",
+        "transform": 0
+      },
+      {
+        "name": "vite:import-analysis",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 298,
+    "invokeCount": 1,
+    "sourceSize": 227,
+    "distSize": 1124
+  },
+  {
+    "id": "/Users/rwr/repo/vite/vite/src/vite.svg",
+    "deps": [],
+    "importers": [
+      "/Users/rwr/repo/vite/vite/src/index.jsx"
+    ],
+    "plugins": [
+      {
+        "name": "vite:asset",
+        "transform": 15
+      },
+      {
+        "name": "vite-hooks-logger",
+        "transform": 0
+      },
+      {
+        "name": "vite-plugin-svgr",
+        "transform": 141
+      },
+      {
+        "name": "vite:import-analysis",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 156,
+    "invokeCount": 1,
+    "sourceSize": 1839,
+    "distSize": 56
+  }
+]
