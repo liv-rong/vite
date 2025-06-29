@@ -8,6 +8,9 @@ import simpleHtml from './simple-html-plugin.js' // 导入你的插件
 import filterAssets from './filter-assets-plugin.js'
 import manifestPlugin from './manifest-plugin.js'
 import versionPlugin from './version-plugin.js'
+import alias from './alias.js'
+import image from './img.js'
+import replace from './replace.js'
 
 export default {
   input: 'src/index.js', // 你的入口文件
@@ -19,10 +22,21 @@ export default {
     entryFileNames: '[name].js',
     chunkFileNames: '[name].js'
   },
+
   plugins: [
     // simpleHtml(), // 使用你的HTML插件
     // filterAssets(),
     // manifestPlugin(),
-    versionPlugin()
+    // versionPlugin(),
+    // alias({
+    //   entries: [{ find: 'module-a', replacement: './module-a.js' }]
+    // })
+    // image({
+    //   dom: true // 生成DOM元素而非Data URI
+    // })
+    replace({
+      __VERSION__: '"1.0.0"',
+      __DEV__: 'false' // 注意这里改为字符串'false'而不是布尔值false
+    })
   ]
 }
