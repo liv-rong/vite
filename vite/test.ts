@@ -51,19 +51,19 @@ export default function viteHooksLogger(): PluginOption {
       console.log('5. [buildStart] 构建开始')
     },
 
-    // === 请求处理阶段 ===
+    // === 请求处理阶段 === 在模块ids解析时被调用：
     resolveId(source, importer, options) {
       if (/\.(jsx?|tsx?)$/.test(source)) {
         console.log(`6. [resolveId] 解析模块: ${source}`)
       }
       return null
     },
-
+    //通用hook 在模块ids加载时被调用：
     load(id) {
       console.log(`7. [load] 加载模块: ${id}`)
       return null
     },
-
+    //code转换 动态替换更新修改等
     transform(code, id) {
       if (id.endsWith('.jsx') || id.endsWith('.tsx')) {
         console.log(`8. [transform] 转换模块: ${id}`)

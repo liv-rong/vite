@@ -2,7 +2,7 @@
   "instances": [
     {
       "root": "/Users/rwr/repo/vite/vite",
-      "vite": "vite1",
+      "vite": "vite2",
       "plugins": [
         {
           "name": "vite:optimized-deps",
@@ -160,21 +160,6 @@
           "generateBundle": "[Function]"
         },
         {
-          "name": "vite-hooks-logger",
-          "config": "[Function]",
-          "configResolved": "[Function]",
-          "options": "[Function]",
-          "configureServer": "[Function]",
-          "buildStart": "[Function]",
-          "resolveId": "[Function]",
-          "load": "[Function]",
-          "transform": "[Function]",
-          "transformIndexHtml": "[Function]",
-          "handleHotUpdate": "[Function]",
-          "buildEnd": "[Function]",
-          "closeBundle": "[Function]"
-        },
-        {
           "name": "vite-plugin-svgr",
           "transform": "[Function]"
         },
@@ -234,6 +219,40 @@
             "handler": "[Function]"
           },
           "hotUpdate": "[Function]"
+        },
+        {
+          "name": "unplugin-auto-import",
+          "enforce": "post",
+          "transformInclude": "[Function]",
+          "transform": {
+            "filter": {
+              "id": {
+                "include": [
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "exclude": [
+                  {},
+                  {}
+                ]
+              }
+            },
+            "handler": "[Function]"
+          },
+          "buildStart": "[Function]",
+          "buildEnd": "[Function]",
+          "vite": {
+            "config": "[Function]",
+            "handleHotUpdate": "[Function]",
+            "configResolved": "[Function]"
+          },
+          "config": "[Function]",
+          "handleHotUpdate": "[Function]",
+          "configResolved": "[Function]"
         },
         {
           "name": "vite:client-inject",
