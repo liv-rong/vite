@@ -31,6 +31,17 @@
       "invokeCount": 0,
       "totalTime": 0
     },
+    "name": "vite-plugin-file-route"
+  },
+  {
+    "transform": {
+      "invokeCount": 0,
+      "totalTime": 0
+    },
+    "resolveId": {
+      "invokeCount": 0,
+      "totalTime": 0
+    },
     "name": "vite-plugin-inspect",
     "enforce": "pre"
   },
@@ -44,6 +55,17 @@
       "totalTime": 0
     },
     "name": "vite-plugin-svgr"
+  },
+  {
+    "transform": {
+      "invokeCount": 0,
+      "totalTime": 0
+    },
+    "resolveId": {
+      "invokeCount": 0,
+      "totalTime": 0
+    },
+    "name": "vite-plugin-virtual-fib"
   },
   {
     "transform": {

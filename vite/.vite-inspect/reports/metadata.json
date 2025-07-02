@@ -164,6 +164,17 @@
           "transform": "[Function]"
         },
         {
+          "name": "vite-plugin-virtual-fib",
+          "resolveId": "[Function]",
+          "load": "[Function]"
+        },
+        {
+          "name": "vite-plugin-file-route",
+          "configureServer": "[Function]",
+          "resolveId": "[Function]",
+          "load": "[Function]"
+        },
+        {
           "name": "vite:wasm-fallback",
           "load": {
             "handler": "[Function]"
@@ -303,7 +314,9 @@
           24,
           25,
           26,
-          27
+          27,
+          28,
+          29
         ],
         "ssr": [
           0,
@@ -333,7 +346,9 @@
           24,
           25,
           26,
-          27
+          27,
+          28,
+          29
         ]
       }
     }

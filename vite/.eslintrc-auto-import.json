@@ -1,6 +1,5 @@
 {
   "globals": {
-    "AButton": true,
     "Button": true,
     "Input": true,
     "createRef": true,
