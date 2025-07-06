@@ -15,8 +15,8 @@ dependencies:
     specifier: ^0.25.5
     version: 0.25.5
   ivy-component-library:
-    specifier: ^1.0.3
-    version: 1.0.3(react-dom@19.1.0)(react@19.1.0)(rollup@4.44.2)(typescript@5.8.3)
+    specifier: ^1.0.4
+    version: 1.0.4(react-dom@19.1.0)(react@19.1.0)(rollup@4.44.2)(typescript@5.8.3)
   js-yaml:
     specifier: ^4.1.0
     version: 4.1.0
@@ -2120,8 +2120,8 @@ packages:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: true
 
-  /ivy-component-library@1.0.3(react-dom@19.1.0)(react@19.1.0)(rollup@4.44.2)(typescript@5.8.3):
-    resolution: {integrity: sha512-iphh4XEt17xD2ILBSkBzmnjGleVcmm22L7M0IEJ3uU6Z8SV1PvtSRIpk4mllIygSCTMHoDrm0sLh0WnIU9kZdQ==}
+  /ivy-component-library@1.0.4(react-dom@19.1.0)(react@19.1.0)(rollup@4.44.2)(typescript@5.8.3):
+    resolution: {integrity: sha512-k3LkNORQENaPU4HPqFLSacTrYh3JAaI9V77uwrbeyJkL4BeraLk1/GXLsIC8x59NFQSHBySyyjkRJ6abMKlWlA==}
     peerDependencies:
       react: ^19.1.0
       react-dom: ^19.1.0

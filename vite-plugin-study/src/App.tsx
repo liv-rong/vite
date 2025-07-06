@@ -4,7 +4,7 @@ import Svg from './assets/react.svg'
 
 import { Button } from 'ivy-component-library'
 
-import 'ivy-component-library/dist/index.css'
+// import 'ivy-component-library/dist/index.css'
 
 function App() {
   return (
