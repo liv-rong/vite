@@ -23,6 +23,9 @@ dependencies:
   esbuild:
     specifier: ^0.25.5
     version: 0.25.5
+  ivy-component-library:
+    specifier: ^1.0.0
+    version: 1.0.0(react-dom@19.1.0)(react@19.1.0)
   react:
     specifier: ^19.1.0
     version: 19.1.0
@@ -1304,6 +1307,16 @@ packages:
     engines: {node: '>=16'}
     dependencies:
       is-inside-container: 1.0.0
+    dev: false
+
+  /ivy-component-library@1.0.0(react-dom@19.1.0)(react@19.1.0):
+    resolution: {integrity: sha512-7bohv7TSO/RwjhhUmWtHXCOjPVcsb5wDrDICZPzhzFMfnkEghFMrtF0jnNToQGuZY8B7iMYmCorN9UmSAcAC0Q==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
     dev: false
 
   /js-tokens@4.0.0:

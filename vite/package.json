@@ -25,6 +25,7 @@
     "@vitejs/plugin-react": "^4.6.0",
     "antd": "^5.26.3",
     "esbuild": "^0.25.5",
+    "ivy-component-library": "^1.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "unplugin-auto-import": "^19.3.0",

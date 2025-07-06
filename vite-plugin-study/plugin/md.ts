@@ -9,7 +9,7 @@ import yaml from 'js-yaml'
 import { createHighlighter } from 'shiki'
 
 export default function markdownPlugin(options = {}) {
-  let highlighter
+  let highlighter: any
 
   return {
     name: 'vite-plugin-markdown',

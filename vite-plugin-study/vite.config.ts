@@ -3,7 +3,9 @@ import react from '@vitejs/plugin-react-swc'
 import virtualFibPlugin from './plugin/virtual'
 import vitePluginTest from './plugin/test'
 import AutoImport from 'unplugin-auto-import/vite'
-import antdResolver from './unplugin-auto-import-antd'
+// import antdResolver from './unplugin-auto-import-antd'
+// import markdownPlugin from './plugin/md'
+
 import svgrPlugin from './plugin/svgr'
 // https://vite.dev/config/
 export default defineConfig({

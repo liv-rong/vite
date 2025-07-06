@@ -1,0 +1,17 @@
+.button {
+  padding: 10px 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+
+  &.ghost {
+    background-color: transparent;
+    color: var(--primary-color);
+  }
+
+  &.default {
+    background-color: var(--primary-color);
+    color: white;
+  }
+} 

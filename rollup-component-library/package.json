@@ -1,12 +1,43 @@
 {
-  "name": "rollup-component-library",
-  "version": "1.0.0",
+  "name": "ivy-component-library",
+  "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "dist/cjs.js",
+  "module": "dist/esm.js",
+  "types": "dist/index.d.ts",
+  "unpkg": "/dist/umd.js",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "rollup-plugin-dts": "^6.2.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-replace": "^6.0.2",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "@types/node": "^22.15.17",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "rollup": "^4.44.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "sass": "^1.89.2",
+    "sass-embedded": "^1.89.0"
+  },
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
 }
