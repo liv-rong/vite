@@ -6,7 +6,7 @@ import remarkRehype from 'remark-rehype'
 import rehypeStringify from 'rehype-stringify'
 import { visit } from 'unist-util-visit'
 import yaml from 'js-yaml'
-import { getHighlighter } from 'shiki'
+import { createHighlighter } from 'shiki'
 
 export default function markdownPlugin(options = {}) {
   let highlighter
@@ -16,8 +16,8 @@ export default function markdownPlugin(options = {}) {
 
     // 配置解析完成后初始化高亮器
     async configResolved() {
-      highlighter = await getHighlighter({
-        theme: 'github-dark',
+      highlighter = await createHighlighter({
+        themes: ['nord'],
         langs: ['javascript', 'typescript', 'html', 'css', 'json']
       })
     },
