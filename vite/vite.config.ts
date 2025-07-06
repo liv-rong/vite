@@ -29,45 +29,45 @@ export default defineConfig({
     //     svgo: true // 启用SVGO优化
     //   }
     // }),
-    // AutoImport({
-    //   imports: [
-    //     'react', // 自动导入 react 相关函数
-    //     {
-    //       antd: [
-    //         // 按需导入 antd 组件（如 Button, Input 等）
-    //         'Button',
-    //         'Input'
-    //         // 或者直接导入所有 antd 组件（不推荐，可能影响构建体积）
-    //         // '*'
-    //       ]
-    //     }
-    //   ],
+    AutoImport({
+      imports: [
+        'react', // 自动导入 react 相关函数
+        {
+          // antd: [
+          //   // 按需导入 antd 组件（如 Button, Input 等）
+          //   'Button',
+          //   'Input'
+          //   // 或者直接导入所有 antd 组件（不推荐，可能影响构建体积）
+          //   // '*'
+          // ]
+        }
+      ],
 
-    //   resolvers: [
-    //     antdResolver({
-    //       prefix: 'A', // 可选：为所有组件添加 A 前缀
-    //       packageName: 'antd' // 可选：默认为 'antd'
-    //     })
-    //   ],
-    //   dts: true, // 生成类型声明文件
-    //   eslintrc: {
-    //     enabled: true // 生成 eslint 配置
-    //   }
-    // }),
+      resolvers: [
+        antdResolver({
+          prefix: 'A', // 可选：为所有组件添加 A 前缀
+          packageName: 'antd' // 可选：默认为 'antd'
+        })
+      ],
+      dts: true, // 生成类型声明文件
+      eslintrc: {
+        enabled: true // 生成 eslint 配置
+      }
+    })
     // virtual(),
     // fileRoutePlugin()，
-    {
-      name: 'my-communication-plugin',
-      configureServer(server) {
-        // 当WebSocket连接建立时
-        server.ws.on('connection', () => {
-          // 向所有客户端广播消息
-          server.ws.send('my-plugin:greeting', {
-            message: '你好，客户端！',
-            timestamp: Date.now()
-          })
-        })
-      }
-    }
+    // {
+    //   name: 'my-communication-plugin',
+    //   configureServer(server) {
+    //     // 当WebSocket连接建立时
+    //     server.ws.on('connection', () => {
+    //       // 向所有客户端广播消息
+    //       server.ws.send('my-plugin:greeting', {
+    //         message: '你好，客户端！',
+    //         timestamp: Date.now()
+    //       })
+    //     })
+    //   }
+    // }
   ]
 })

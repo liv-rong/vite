@@ -7,6 +7,7 @@
 export {}
 declare global {
   const AButton: typeof import('antd')['Button']
+  const AInput: typeof import('antd')['Input']
   const createRef: typeof import('react')['createRef']
   const forwardRef: typeof import('react')['forwardRef']
   const lazy: typeof import('react')['lazy']

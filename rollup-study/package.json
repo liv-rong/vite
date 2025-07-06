@@ -1,0 +1,24 @@
+{
+  "name": "rollup-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf dist",
+    "dev": "node watch.js",
+    "build": "npm run clean && rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.4",
+    "rollup": "^4.44.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "magic-string": "^0.30.17"
+  },
+  "dependencies": {
+    "rimraf": "^6.0.1"
+  }
+}

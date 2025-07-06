@@ -1,6 +1,7 @@
 {
   "globals": {
     "AButton": true,
+    "AInput": true,
     "createRef": true,
     "forwardRef": true,
     "lazy": true,

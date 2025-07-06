@@ -12,8 +12,8 @@ export default function App() {
   return (
     <div>
       <h1>Welcome to Vite!</h1>
-      {/* <Button>ashdoaso</Button>
-      <AButton>111111</AButton> */}
+      {/* <Button>ashdoaso</Button> */}
+      <AButton>111111</AButton>
       <h1>斐波那契数列演示</h1>
       {/* <p>fib(10): {fib(10)}</p>
       <p>memoFib(40): {memoFib(40)}</p> */}
