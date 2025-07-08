@@ -1,10 +1,10 @@
 import { add } from './add.js'
 import { moduleA } from './module-a'
-import logoSvg from '../public/icon.svg'
-import logo from '../public/logo.jpg'
+// import logoSvg from '../public/icon.svg'
+// import logo from '../public/logo.jpg'
 
 console.log(add(2, 3))
-console.log(add(2, 2))
+
 console.log(moduleA)
 // console.log(logoSvg)
 // console.log(logo)

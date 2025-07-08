@@ -26,7 +26,7 @@ const config = {
         { find: 'module-a', replacement: './module-a.js' }
       ]
     }),
-    rollupPluginImg(),
+    // rollupPluginImg(),
     rollupPluginReplace({
       __VERSION__: '"1.0.0"',
       __DEV__: 'false' // 注意这里改为字符串'false'而不是布尔值false

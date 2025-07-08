@@ -13,11 +13,13 @@ function executeReplacement(code, id, options) {
     // 确保key是有效的标识符
     const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
     const pattern = new RegExp(escapedKey, 'g')
+    console.log(pattern, 'pattern')
     let match
     // 3. 查找所有匹配项
     while ((match = pattern.exec(code))) {
       const start = match.index
       const end = start + match[0].length
+      console.log(start, end, match, '匹配项')
       // 确保替换值是字符串，并处理引号情况
       const stringValue =
         typeof value === 'string'
@@ -32,7 +34,7 @@ function executeReplacement(code, id, options) {
 
   return {
     code: magicString.toString(),
-    map: magicString.generateMap()
+    map: magicString.generateMap() //用于生成 source map  JSON提供原始源代码和转换后代码之间的映射关系
   }
 }
 //两个钩子都执行	原始模块中的代码可能被其他插件修改 最终组合后的代码最好也执行一次

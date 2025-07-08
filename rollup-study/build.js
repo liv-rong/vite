@@ -33,7 +33,7 @@ async function build() {
     for (const outputOptions of outputOptionsList) {
       // 2. 拿到 bundle 对象，根据每一份输出配置，调用 generate 和 write 方法分别生成和写入产物
       const { output } = await bundle.generate(outputOptions)
-      console.log(output)
+      console.log(output, 'outpot')
       await bundle.write(outputOptions)
     }
   } catch (error) {
